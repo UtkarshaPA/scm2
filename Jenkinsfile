@@ -12,7 +12,7 @@ pipeline{
 	steps{
                
 		sleep 10
-		sudo yum install tree -y
+		sh "sudo yum install tree -y"
 	     }
         } 
 
