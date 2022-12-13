@@ -6,12 +6,13 @@ pipeline{
 	      }
    
   stages{
-	stage('scm-stage1')
+	stage('scm-stage2')
 	{
 
 	steps{
                
 		sleep 10
+		sudo yum install tree -y
 	     }
         } 
 
